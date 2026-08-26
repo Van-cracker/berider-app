@@ -9,6 +9,11 @@ function App() {
 
   return (
     <>
+      <div className="flex h-screen items-center justify-center bg-slate-900 text-white">
+        <h1 className="text-4xl font-bold text-amber-500">
+          Be'Rider - Tailwind v4 OK !
+        </h1>
+      </div>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
